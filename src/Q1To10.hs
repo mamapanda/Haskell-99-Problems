@@ -8,8 +8,9 @@ myLast::[a] -> a
 myLast = last
 
 myLast'::[a] -> a
+myLast' [] = error "Empty list."
 myLast' [x] = x
-myLast' (x:xs) = myLast' xs
+myLast' (_:xs) = myLast' xs
 
 -- | Question 2
 myButLast::[a] -> a
