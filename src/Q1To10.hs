@@ -8,7 +8,7 @@ myLast::[a] -> a
 myLast = last
 
 myLast'::[a] -> a
-myLast' [] = error "Empty list."
+myLast' [] = error "Q1"
 myLast' [x] = x
 myLast' (_:xs) = myLast' xs
 
