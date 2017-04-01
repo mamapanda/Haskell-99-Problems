@@ -21,5 +21,6 @@ library
   exposed-modules:     Questions
   other-modules:       Q01To10
                      , Q11To20
-                     , Q21To30
+                     , Q21To28
+                     , Q31To41
   ghc-options:         -Wall

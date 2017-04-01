@@ -1,4 +1,4 @@
-module Q21To30 where
+module Q21To28 where
 
 import Control.Arrow
 import Data.List
