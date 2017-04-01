@@ -1,4 +1,4 @@
-module Q1To10 where
+module Q01To10 where
 
 import Control.Arrow
 import Data.List

@@ -1,6 +1,6 @@
 module Q11To20 where
 
-import Q1To10 (encode)
+import Q01To10 (encode)
 
 -- | Question 11
 data EncodeUnit a = Single a | Multiple Int a
