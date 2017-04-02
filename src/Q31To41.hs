@@ -47,7 +47,7 @@ primesR i j = filter isPrime [i..j]
 
 -- | Question 40
 goldbach::Int -> (Int, Int)
-goldbach n = head [(a, b)
+goldbach n = head [ (a, b)
                   | a <- primesR 1 n
                   , let b = n - a
                   , isPrime b
