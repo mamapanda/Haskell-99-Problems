@@ -24,4 +24,5 @@ library
                      , Q21To28
                      , Q31To41
                      , Q46To50
+                     , Q55To60
   ghc-options:         -Wall
