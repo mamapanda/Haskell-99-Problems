@@ -27,4 +27,5 @@ library
                      , Q55To60
                      , Q61To69
                      , Q61To69Trees
+                     , Q70To73
   ghc-options:         -Wall -O
